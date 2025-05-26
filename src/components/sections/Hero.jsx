@@ -1,3 +1,4 @@
+ import profileImg from '../../assets/images/profile/profile.png'; // Replace with your actual image path
  import { FaArrowRight } from 'react-icons/fa';
 
 const Hero = () => {
@@ -34,7 +35,7 @@ const Hero = () => {
         {/* Profile Image Section */}
         <div className="w-52 h-52 sm:w-64 sm:h-64 rounded-full overflow-hidden border-4 border-white shadow-lg">
           <img
-            src="/your-profile-image.jpg"
+            src={profileImg}
             alt="Ramachanthar"
             className="w-full h-full object-cover"
           />

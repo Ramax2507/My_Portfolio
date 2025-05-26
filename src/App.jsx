@@ -8,6 +8,7 @@ import ScrollToTop from './components/common/ScrollToTop';
 import Home from './pages/Home';
 import ProjectDetail from './pages/ProjectDetail';
 import NotFound from './pages/NotFound';
+import ProjectOne from './pages/projects/ProjectOne';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/projects/:id" element={<ProjectDetail />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/projects/project-one" element={<ProjectOne />} />          
           </Routes>
         </main>
 

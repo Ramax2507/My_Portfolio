@@ -77,14 +77,14 @@ const Contact = () => {
 
         <div className="mt-12 flex justify-center space-x-6 text-gray-600 dark:text-gray-400">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:ramachantharshankar@gmail.com"
             className="hover:text-blue-500 transition-colors"
             aria-label="Email"
           >
             <FaEnvelope size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/ramachantharshankar"
+            href="https://www.linkedin.com/in/ramachanthar-shankar-67237627b/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-700 transition-colors"

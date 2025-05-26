@@ -8,6 +8,7 @@
     githubUrl: 'https://github.com/Ramax2507/portfolio',
     liveDemoUrl: 'https://ramax2507.github.io/portfolio/',
     image: '/assets/images/projects/portfolio.png',
+    path: '/projects/project-one',
   },
   {
     id: 2,
@@ -29,6 +30,7 @@
     liveDemoUrl: null,
     image: '/assets/images/projects/debt-management-system.png',
   },
+   
 ];
 
 export default projects;
