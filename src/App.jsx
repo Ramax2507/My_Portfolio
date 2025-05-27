@@ -8,25 +8,30 @@ import ScrollToTop from './components/common/ScrollToTop';
 import Home from './pages/Home';
 import ProjectDetail from './pages/ProjectDetail';
 import NotFound from './pages/NotFound';
-import ProjectOne from './pages/projects/ProjectOne';
 
 const App = () => {
   return (
     <Router>
       <ScrollToTop />
-      <div className="flex flex-col min-h-screen">
-        <Header />
 
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects/:id" element={<ProjectDetail />} />
-            <Route path="*" element={<NotFound />} />
-            <Route path="/projects/project-one" element={<ProjectOne />} />          
-          </Routes>
-        </main>
+      {/* 🔹 Background image container */}
+      <div
+        className="min-h-screen bg-top bg-repeat bg-auto"
+        style={{ backgroundImage: `url('/bg.jpg')` }}
+      >
+        <div className="flex flex-col min-h-screen backdrop-brightness-95"> {/* Optional: dark overlay */}
+          <Header />
 
-        <Footer />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/projects/:id" element={<ProjectDetail />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+
+          <Footer />
+        </div>
       </div>
     </Router>
   );

@@ -2,7 +2,7 @@
 
 const About = () => {
   return (
-    <section id="about" className="bg-white dark:bg-gray-900 py-20">
+    <section id="about" className=" dark:bg-gray-900 py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Profile Image */}

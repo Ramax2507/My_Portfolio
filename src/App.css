@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif; /* Use a popular Tailwind-compatible font */
-  background-color: #f9fafb; /* Light gray background */
+   /* Light gray background */
   color: #111827; /* Dark gray text */
 }
 
