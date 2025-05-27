@@ -26,7 +26,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="bg-white dark:bg-gray-900 py-20 px-4">
+    <section id="experience" className="bg-white dark:bg-gray-900/80 rounded-xl  py-20 px-4 border-4  border-white/60  backdrop-blur-2xl shadow-lg">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-12">
           <FaBriefcase className="inline mr-2 text-blue-600" />

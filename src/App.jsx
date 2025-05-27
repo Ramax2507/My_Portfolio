@@ -16,7 +16,7 @@ const App = () => {
 
       {/* 🔹 Background image container */}
       <div
-        className="min-h-screen bg-top bg-repeat bg-auto"
+        className="min-h-screen bg-fixed bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url('/bg.jpg')` }}
       >
         <div className="flex flex-col min-h-screen backdrop-brightness-95"> {/* Optional: dark overlay */}

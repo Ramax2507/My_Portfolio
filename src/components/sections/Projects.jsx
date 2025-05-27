@@ -16,7 +16,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="bg-gray-50 dark:bg-gray-900 py-20 px-4 relative">
+    <section id="projects" className="bg-gray-50 dark:bg-gray-900/80 py-20 px-4 relative rounded-xl border-4  border-white/60  backdrop-blur-2xl shadow-lg">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">
           My Projects

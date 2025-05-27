@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-b from-blue-900 via-blue-800 to-blue-700 text-white py-24 px-4"
+      className="bg-gradient-to-b from-blue-900/90 via-blue-800/70 to-blue-700 text-white py-24 px-4 rounded-xl border-4  border-white/60  backdrop-blur-2xl shadow-lg"
     >
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
         {/* Text Section */}
