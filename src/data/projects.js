@@ -1,34 +1,33 @@
  const projects = [
   {
     id: 1,
-    title: 'Personal Portfolio Website',
+    title: 'QR based Feedback system (TNSCHE)',
     description:
-      'A responsive portfolio website built with React and Tailwind CSS showcasing my projects, skills, and contact information.',
+      'A QR based Feedback system for College students to give feedback abot the facilities within the campus like Water,Restroom ,Canteen',
     techStack: ['React', 'Tailwind CSS', 'JavaScript'],
     githubUrl: 'https://github.com/Ramax2507/portfolio',
     liveDemoUrl: 'https://ramax2507.github.io/portfolio/',
-    image: '/assets/images/projects/portfolio.png',
-    path: '/projects/project-one',
+    image: 'src/assets/images/projects/tnschelogo.png',
   },
   {
     id: 2,
-    title: 'AI Image Generator',
+    title: 'Student  Satisfaction Survey (TNSCHE)',
     description:
-      'An AI-powered image generator web app built using Streamlit and integrated with the RunwayML API.',
+      'A student Satisfaction Survey to enquire students about thier Colleges Infrastructure ,other facilities',
     techStack: ['Python', 'Streamlit', 'RunwayML API'],
     githubUrl: 'https://github.com/Ramax2507/ai-image-generator',
-    liveDemoUrl: null,
-    image: '/assets/images/projects/ai-image-generator.png',
+    liveDemoUrl: 'https://tnscheforms.web.app/',
+    image: 'src/assets/images/projects/tnschelogo.png',
   },
   {
     id: 3,
-    title: 'Debt Management System',
+    title: 'PHD Scholars Survey',
     description:
-      'A system for shop owners to manage customer debts, send payment reminders, and view reports, featuring face detection alerts.',
+      'A Forms survey that will be useful in Grievance redressa for the phd pursuing scholars.',
     techStack: ['Python', 'OpenCV', 'MySQL', 'Flask'],
     githubUrl: 'https://github.com/Ramax2507/debt-management-system',
     liveDemoUrl: null,
-    image: '/assets/images/projects/debt-management-system.png',
+    image: 'src/assets/images/projects/tnschelogo.png',
   },
    
 ];
