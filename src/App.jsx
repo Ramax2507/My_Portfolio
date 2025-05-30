@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import ScrollToTop from './components/common/ScrollToTop';
-
 import Home from './pages/Home';
 import ProjectDetail from './pages/ProjectDetail';
 import NotFound from './pages/NotFound';
@@ -26,7 +25,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projects/:id" element={<ProjectDetail />} />
-              <Route path="*" element={<NotFound />} />
+             <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
 
