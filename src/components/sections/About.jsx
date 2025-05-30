@@ -15,7 +15,7 @@ const About = () => {
           </div>
 
           {/* About Text */}
-          <div className="w-full md:w-2/3 space-y-6">
+          <div className="w-full md:w-2/3 space-y-4">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white">About Me</h2>
             <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
               Hi! I'm <span className="font-semibold text-blue-600">Ramachanthar</span>, a passionate

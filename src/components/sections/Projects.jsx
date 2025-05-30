@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { FaExternalLinkAlt, FaGithub, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import projects from '../../data/projects';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   const scrollRef = useRef();
@@ -42,6 +43,13 @@ const Projects = () => {
           className="flex space-x-6 overflow-x-auto scrollbar-hide px-2"
         >
           {projects.map(({ id, title, description, image, github, live }) => (
+            
+             <Link
+             to={`/projects/${id}`}
+             key={id}
+    className="transform hover:scale-105 transition-transform duration-300 flex-shrink-0 w-72 sm:w-80"
+  >
+
             <div
               key={id}
               className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden flex-shrink-0 w-72 sm:w-80"
@@ -80,6 +88,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </div>
