@@ -1,5 +1,4 @@
- import profileImg from '../../assets/images/profile/profile.png'; // Replace with your actual image path
-
+ import profileImg from '../../assets/images/profile/profile1.png'; // Replace with your actual image path
 const About = () => {
   return (
     <section id="about" className="bg-white/70 dark:bg-gray-900/80 rounded-2xl p-8 border-4  border-white/60  backdrop-blur-2xl shadow-lg">
@@ -10,7 +9,7 @@ const About = () => {
             <img
               src={profileImg}
               alt="Profile"
-              className="rounded-2xl shadow-lg object-cover w-full h-auto"
+              className="rounded-2xl shadow-lg object-cover w-full h-auto border-2 border-white-700"
             />
           </div>
 

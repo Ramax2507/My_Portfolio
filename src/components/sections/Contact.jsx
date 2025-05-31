@@ -1,5 +1,6 @@
- import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
-import { useState } from 'react';
+import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { useState, useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -9,6 +10,7 @@ const Contact = () => {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const formRef = useRef();
 
   const handleChange = (e) => {
     setFormData(prev => ({
@@ -19,10 +21,24 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Replace with real logic to send the message (e.g., EmailJS, API call)
-    console.log(formData);
-    setSubmitted(true);
-    setFormData({ name: '', email: '', message: '' });
+
+    emailjs
+      .sendForm(
+        'service_zwo6jsr',     // Replace with your EmailJS Service ID
+        'template_q371oxu',    // Replace with your EmailJS Template ID
+        formRef.current,
+        'rdr31zMQf0Y0x2QMM'      // Replace with your EmailJS Public Key
+      )
+      .then(
+        () => {
+          console.log('Email sent successfully');
+          setSubmitted(true);
+          setFormData({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          console.error('Failed to send email:', error);
+        }
+      );
   };
 
   return (
@@ -33,7 +49,7 @@ const Contact = () => {
           Feel free to reach out through the form below or connect with me via social platforms.
         </p>
 
-        <form onSubmit={handleSubmit} className="grid gap-6 md:grid-cols-2">
+        <form ref={formRef} onSubmit={handleSubmit} className="grid gap-6 md:grid-cols-2">
           <input
             type="text"
             name="name"
@@ -108,4 +124,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

@@ -86,10 +86,11 @@ Thanks to TNSCHE for the opportunity. Guided by Mr. Ajith Kirubakaran. Explored 
   {
     id: 3,
     title: 'PHD Scholars Survey',
-    description1:`A digital survey platform to collect feedback and grievance redressal from college students.\n
-Piloted in Queen Mary's College and Presidency College.\n
-To be launched by Hon’ble Deputy Chief Minister Mr. Udhayanidhi Stalin in Madurai, across Tamil Nadu.\n
-Thanks to TNSCHE for the opportunity. Guided by Mr. Ajith Kirubakaran. Explored new AI tools and methodologies.`
+    description1:`A web application for Ph.D. scholars to report grievances and provide academic feedback.\n
+An initiative by the Tamil Nadu State Council for Higher Education (TNSCHE).\n
+Built using React.js and Tailwind CSS. Deployed with Firebase.\n
+Thanks to Mr. Ajith Kirubakaran and Ms. Raghavi for their support and guidance.`
+
 ,
     description:
        `<div style="text-align: center;
@@ -113,6 +114,8 @@ Thanks to TNSCHE for the opportunity. Guided by Mr. Ajith Kirubakaran. Explored 
     liveDemoUrl: null,
     image: 'src/assets/images/projects/tnschelogo.png',
   },
+
+
    
 ];
 

@@ -16,7 +16,7 @@ const Footer = () => {
     },
     {
       name: 'Email',
-      url: 'mailto:your.email@example.com',
+      url: 'ramachantharshankaran@gmal.com',
       icon: FaEnvelope
     }
   ];
@@ -43,7 +43,7 @@ const Footer = () => {
             </p>
             <button 
               onClick={scrollToTop}
-              className="text-blue-400 hover:text-blue-300 transition-colors duration-300 flex items-center space-x-2"
+              className="text-blue-400 hover:text-white transition-colors duration-300 flex items-center space-x-2 ml-4"
             >
               <span>Back to top</span>
               <span>↑</span>
@@ -81,7 +81,7 @@ const Footer = () => {
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-white transform hover:scale-110 transition-all duration-300"
+                    className="text-gray-300 hover:text-white transform hover:scale-110 transition-all duration-300 ml-14"
                     aria-label={social.name}
                   >
                     <IconComponent size={24} />
@@ -101,7 +101,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm flex items-center">
               © {currentYear} Ramachanthar. Made with{' '}
               <FaHeart className="text-red-500 mx-1" size={14} />
-              and lots of coffee.
+             and Excitement.
             </p>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#privacy" className="hover:text-white transition-colors duration-300">

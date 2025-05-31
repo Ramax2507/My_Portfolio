@@ -18,14 +18,14 @@ const Header = () => {
   ];
 
  return (
-  <header className="bg-gray-900 text-white fixed w-full z-50 shadow-md">
+  <header className="bg-gray-900 text-white fixed w-full z-50 shadow-md ">
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
       {/* Logo + Name */}
       <div className="flex items-center space-x-3">
         <img
           src={logo}
           alt="Ramachanthar"
-          className="w-10 h-10 rounded-full object-cover border-4 border-green-500"
+          className="w-10 h-10 rounded-full object-cover border-4 border-blue-500"
         />
         <a
           href="#hero"

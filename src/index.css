@@ -41,8 +41,22 @@ a {
   background-color: #2563eb; /* Tailwind's blue-600 */
 }
 
-/* For Firefox */
-.custom-scrollbar {
-  scrollbar-width: thin;
-  scrollbar-color: #3b82f6 transparent;
+/* Horizontal Scrollbar Matching Experience Section */
+.custom-scrollbar-horizontal::-webkit-scrollbar {
+  height: 10px;
 }
+
+.custom-scrollbar-horizontal::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar-horizontal::-webkit-scrollbar-thumb {
+  background-color: rgba(37, 99, 235, 0.7); /* blue-600 */
+  border-radius: 9999px;
+}
+
+.custom-scrollbar-horizontal {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(37, 99, 235, 0.7) transparent;
+}
+

@@ -22,7 +22,7 @@ const ProjectDetail = () => {
   }
 
   // Resolve the actual image URL using Vite's glob import
-  const resolvedImage = images[`../${project.image1}`]?.default || '';
+  const resolvedImage = images[`../${project.image}`]?.default || '';
 
   return (
     <div className="min-h-screen py-20 px-4 bg-white/10  backdrop-blur-md">
