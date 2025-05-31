@@ -47,7 +47,7 @@ Thanks to TNSCHE for the opportunity. Guided by Dr. Ramesh and Dr. R.M. Chandras
 
     githubUrl: 'https://github.com/arvindhramesh/QR-Based-Feedback-System',
     liveDemoUrl: 'https://www.auegov.ac.in/tansi/onlineqr.php',
-    image: 'src/assets/images/projects/tnschelogo.png',
+    image: '/tnschelogo.png',
     image1:'src/assets/images/projects/thumbnail.jpg',
   },
   {
@@ -81,7 +81,7 @@ Thanks to TNSCHE for the opportunity. Guided by Mr. Ajith Kirubakaran. Explored 
 `,
     githubUrl: 'https://github.com/Ramax2507/ai-image-generator',
     liveDemoUrl: 'https://tnscheforms.web.app/',
-    image: 'src/assets/images/projects/tnschelogo.png',
+    image: '/tnschelogo.png',
   },
   {
     id: 3,
@@ -112,7 +112,7 @@ Thanks to Mr. Ajith Kirubakaran and Ms. Raghavi for their support and guidance.`
     <li class="bg-indigo-600 text-white font-semibold px-4 py-1 rounded-full select-none">Firebase</li> </ul>`,
     githubUrl: 'https://github.com/Ramax2507/debt-management-system',
     liveDemoUrl: null,
-    image: 'src/assets/images/projects/tnschelogo.png',
+    image: '/tnschelogo.png',
   },
 
 

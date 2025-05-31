@@ -31,7 +31,7 @@ const About = () => {
               or experimenting with futuristic story ideas. 🌟
             </p>
             <a
-              href="src/assets/documents/resume.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition duration-300"
