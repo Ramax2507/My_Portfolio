@@ -7,6 +7,9 @@ import thumbnail1 from '../assets/images/projects/thumbnail.jpg';
   {
     id: "1",
     title: 'QR based Feedback system (TNSCHE)',
+    description1:`A QR-based Feedback system for college students to provide input on campus facilities like Water, Restrooms, and Canteens.
+Launched by Hon’ble Minister for Higher Education Dr. Govi. Cheziyaan and deployed in Anna University.
+Thanks to TNSCHE for the opportunity. Guided by Dr. Ramesh and Dr. R.M. Chandrasekharan. Learned PHP and Oracle DB.`,
   
    description: `
   <div style="text-align: center;">
@@ -50,6 +53,11 @@ import thumbnail1 from '../assets/images/projects/thumbnail.jpg';
   {
     id: 2,
     title: 'Student  Satisfaction Survey (TNSCHE)',
+    description1:`A digital survey platform to collect feedback and grievance redressal from college students.\n
+Piloted in Queen Mary's College and Presidency College.\n
+To be launched by Hon’ble Deputy Chief Minister Mr. Udhayanidhi Stalin in Madurai, across Tamil Nadu.\n
+Thanks to TNSCHE for the opportunity. Guided by Mr. Ajith Kirubakaran. Explored new AI tools and methodologies.`
+,
     description:
       `<div style="text-align: center;">
   <p>
@@ -78,6 +86,11 @@ import thumbnail1 from '../assets/images/projects/thumbnail.jpg';
   {
     id: 3,
     title: 'PHD Scholars Survey',
+    description1:`A digital survey platform to collect feedback and grievance redressal from college students.\n
+Piloted in Queen Mary's College and Presidency College.\n
+To be launched by Hon’ble Deputy Chief Minister Mr. Udhayanidhi Stalin in Madurai, across Tamil Nadu.\n
+Thanks to TNSCHE for the opportunity. Guided by Mr. Ajith Kirubakaran. Explored new AI tools and methodologies.`
+,
     description:
        `<div style="text-align: center;
   <p>

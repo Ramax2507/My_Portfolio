@@ -1,11 +1,15 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import projects from '../data/projects';
+import { useEffect } from 'react';
 
 // Load all images in /src/assets/images dynamically
 const images = import.meta.glob('../assets/images/**/*.{jpg,png,jpeg,webp}', { eager: true });
 
 const ProjectDetail = () => {
+   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const { id } = useParams();
   const project = projects.find(p => p.id.toString() === id);
 

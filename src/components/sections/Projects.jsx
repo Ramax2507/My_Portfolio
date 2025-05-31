@@ -42,7 +42,7 @@ const Projects = () => {
           ref={scrollRef}
           className="flex space-x-6 overflow-x-auto scrollbar-hide px-2"
         >
-          {projects.map(({ id, title, description, image, github, live }) => (
+          {projects.map(({ id, title,description1, description, image, github, live }) => (
             
           <Link
   to={`/projects/${id}`}
@@ -60,7 +60,7 @@ const Projects = () => {
         {title}
       </h3>
       <p className="text-gray-700 dark:text-gray-300 text-sm line-clamp-3 flex-grow">
-        {description}
+        {description1}
       </p>
       <div className="mt-4 flex space-x-4">
         {github && (
