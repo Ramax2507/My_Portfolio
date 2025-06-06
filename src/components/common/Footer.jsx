@@ -29,7 +29,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="mt-10 py-6 text-center bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300">
+    <footer className="mt-10 py-6 text-center bg-gray-900 text-gray-300">
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}

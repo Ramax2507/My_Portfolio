@@ -25,7 +25,7 @@ const Hero = () => {
             </a>
             <a
               href="#projects"
-              className="flex items-center gap-2 px-6 py-3 border border-white rounded-md hover:bg-white hover:text-blue-800 transition"
+              className="flex items-center gap-2 px-6 py-3 border border-white rounded-md text-white hover:bg-white hover:text-blue-800 transition"
             >
               View Projects <FaArrowRight />
             </a>

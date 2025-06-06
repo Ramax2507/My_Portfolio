@@ -26,7 +26,7 @@ const ProjectDetail = () => {
 
   return (
     <div className="min-h-screen py-20 px-4 bg-white/10  backdrop-blur-md">
-      <div className="max-w-6xl mx-auto p-6 bg-white/30 dark:bg-gray-900/90 rounded-xl border border-white/50 shadow-lg">
+      <div className="max-w-6xl mx-auto p-6 bg-gray-900/90 rounded-xl border border-white/50 shadow-lg">
         {resolvedImage && (
           <img
             src={resolvedImage}
@@ -34,9 +34,9 @@ const ProjectDetail = () => {
             className="w-full h-64 object-cover rounded-lg mb-6"
           />
         )}
-        <h1 className="text-3xl text-center font-bold mb-4 text-gray-900 dark:text-white">{project.title}</h1>
+        <h1 className="text-3xl text-center font-bold mb-4 text-white">{project.title}</h1>
         <div
-  className="text-xl text-gray-800 dark:text-gray-200 leading-relaxed space-y-4"
+  className="text-xl text-gray-200 leading-relaxed space-y-4"
   dangerouslySetInnerHTML={{ __html: project.description }}
 />
 <h2 className="mt-8 text-2xl  font-bold mb-4 text-gray-900 dark:text-white">SKILLS ACQUIRED</h2>
@@ -79,7 +79,7 @@ const ProjectDetail = () => {
 
 <Link
   to="/"
-  className="inline-block mt-10 px-4 py-2 border border-gray-400 text-gray-800 dark:text-white rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+  className="inline-block mt-10 px-4 py-2 border border-gray-400 text-white rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition"
 >
   ← Back to Home
 </Link>

@@ -9,6 +9,9 @@ import Home from './pages/Home';
 import ProjectDetail from './pages/ProjectDetail';
 import NotFound from './pages/NotFound';
 
+document.documentElement.classList.add('dark');
+
+
 const App = () => {
   return (
     <Router>
